@@ -216,4 +216,8 @@ public class MainActivity extends AppCompatActivity {
             val1 = Double.parseDouble(info.getText().toString());
         }
     }
+    public void changeBackColor(View v){
+        View view = this.getWindow().getDecorView();
+        view.setBackgroundColor(120314);
+    }
 }
